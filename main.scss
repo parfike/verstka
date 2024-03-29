@@ -1,0 +1,112 @@
+// Переменные
+$primary-color: #EE8313;
+$secondary-color: #EF5E10;
+$background-color: #000;
+$text-color: #FFF;
+$font-stack: 'Be Vietnam Pro', Arial, Helvetica, sans-serif;
+$border-color: #171717;
+$footer-background: #1F1905;
+
+// Импорт шрифтов
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap');
+@import "scss/header-section";
+@import "scss/header";
+@import "scss/container";
+@import "scss/header-logo";
+@import "scss/footer-about_img";
+@import "scss/nav-main";
+@import "scss/nav-main_list";
+@import "scss/nav-main_link";
+@import "scss/bth-primary";
+@import "scss/banner-section";
+@import "scss/banner";
+@import "scss/banner__header";
+@import "scss/banner__text";
+@import "scss/banner-links-wrap";
+@import "scss/banner-features__text";
+@import "scss/banner-features__text_strong";
+@import "scss/banner-img";
+@import "scss/rent-section";
+@import "scss/rent-wrap";
+@import "scss/rent";
+@import "scss/services-section";
+@import "scss/services-section__title";
+@import "scss/services-wrap";
+@import "scss/services";
+@import "scss/destination-section";
+@import "scss/destination-section__title";
+@import "scss/destination-info";
+@import "scss/destination-wrap";
+@import "scss/destination";
+@import "scss/destination__title";
+@import "scss/banner__text";
+@import "scss/destination__price";
+@import "scss/destination__link";
+@import "scss/location-section";
+@import "scss/footer-about_img";
+@import "scss/footer-section";
+@import "scss/footer";
+@import "scss/footer-logo-wrap";
+@import "scss/footer-about__text";
+@import "scss/footer-nav-wrap";
+@import "scss/footer-nav__header";
+@import "scss/footer-nav__item";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: $text-color;
+  font: 16px/28px $font-stack;
+  background-color: $background-color;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: .4s;
+}
+ul li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+button {
+  display: block;
+  border: none;
+  background-color: transparent;
+  font: inherit;
+  cursor: pointer;
+  transition: .4s;
+}
+.title-section {
+  margin-bottom: 40px;
+  font-size: 52px;
+  line-height: 64px;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+.btn-primary {
+  padding: 12px 24px;
+  font-weight: 600;
+  background-color: $primary-color;
+  &:hover {
+    background-color: $secondary-color;
+  }
+}
+.btn-secondary {
+  padding: 12px 24px;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+    
+    
+    
+    
+    
+  

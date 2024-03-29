@@ -1,0 +1,6 @@
+.destination__link {
+    color: $primary-color;
+    &:hover {
+    color: $secondary-color;
+    }
+}

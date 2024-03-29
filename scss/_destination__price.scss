@@ -1,0 +1,17 @@
+.destination__price {
+    position: relative;
+    display: block;
+    margin-bottom: 17px;
+    padding-left: 42px;
+    font-weight: 600;
+    &:before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: url(img/car_icon.svg) no-repeat;
+    transform: translateY(-50%);
+    }
+}

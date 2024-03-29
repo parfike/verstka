@@ -1,0 +1,43 @@
+.rent {
+    position: relative;
+    height: 524px;
+    font-weight: 600;
+    background: url(img/rent.jpg) 50%/cover no-repeat;
+    &:nth-child(2) {
+    background-image: url(img/rent_2.jpg);
+    }
+    &:nth-child(3) {
+    background-image: url(img/rent_3.jpg);
+    }
+    &:nth-child(4) {
+    background-image: url(img/rent_4.jpg);
+    }
+    &__name {
+    position: absolute;
+    top: 48px;
+    left: 48px;
+    font-size: 40px;
+    letter-spacing: 0.6px;
+    }
+    &__link {
+    position: absolute;
+    bottom: 48px;
+    right: 60px;
+    padding-right: 30px;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    &:hover {
+        color: #FFCC2C;
+    }
+    &:after {
+        position: absolute;
+        content: '';
+        top: 50%;
+        right: 0;
+        width: 8px;
+        height: 16px;
+        background: url(img/arrow.svg) 50%/cover no-repeat;
+        transform: translateY(-50%);
+    }
+    }
+}

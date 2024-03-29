@@ -1,0 +1,17 @@
+.banner-img {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 150px;
+    right: 0;
+}
+.banner-img:before {
+    position: absolute;
+    content: '';
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 96%;
+    height: 100%;
+    background: url(img/banner-main.png) no-repeat;
+}
